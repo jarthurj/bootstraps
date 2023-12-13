@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>John Doe</title>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body id="page-top">
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-		<nav class="navbar navbar-expand-lg bg-primary fixed-top">
+		<nav class="navbar navbar-expand-lg bg-secondary fixed-top">
 		  <div class="container">
 		    <a class="navbar-brand fw-bold text-white" href="#page-top">JOHN DOE</a>
 		    <button class="navbar-toggler rounded" 
@@ -24,47 +25,61 @@
 		    <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
 		      <ul class="navbar-nav ms-auto">
 		        <li class="nav-item mx-0 mx-lg-1 fw-bold">
-		          <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#">PORTFOLIO</a>
+		          <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#projects">PROJECTS</a>
 		        </li>
 		        <li class="nav-item mx-0 mx-lg-1 fw-bold">
 		          <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#about">ABOUT</a>
 		        </li>
 		        <li class="nav-item mx-0 mx-lg-1 fw-bold">
-		          <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#">CONTACT</a>
+		          <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#contact">CONTACT</a>
+		        </li>
+		        <li class="nav-item mx-0 mx-lg-1 fw-bold">
+		          <a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="">RESUME</a>
 		        </li>
 		      </ul>
 		    </div>
 		  </div>
 		</nav>
-		<header class="bg-info text-center text-white mt-5">
+		<header class="bg-primary text-center text-white mt-5">
 			<div class="d-flex align-items-center flex-column">
 				<img class="my-5" src="avataaars.svg" style="width:20%"/>
-				<h1 class="display-5 fw-bold my-5">JOHN DOE</h1>
+				<h1 class="display-5 fw-bold mb-5">JOHN DOE</h1>
 			</div>
 		</header>
-		<section class="container-fluid bg-success text-center">
-			<h1 class="display-5 fw-bold text-white mb-5">PROJECTS</h1>
-			<div class="d-flex flex-row flex-wrap justify-content-evenly">
-				<img class="my-1 rounded" src="cake.png" style="width:30%"/>
-				<img class="my-1 rounded" src="cake.png" style="width:30%"/>
-				<img class="my-1 rounded" src="cake.png" style="width:30%"/>
-				<img class="my-1 rounded" src="cake.png" style="width:30%"/>
-				<img class="my-1 rounded" src="cake.png" style="width:30%"/>
-				<img class="my-1 rounded" src="cake.png" style="width:30%"/>
+		<section id="projects" class="container-fluid bg-success text-center	pb-5">
+			<h1 id="projects" class="display-5 fw-bold text-white py-5">PROJECTS</h1>
+			<div class="row justify-content-center">
+				<!-- <img class="col-8 col-lg-4  my-1 rounded" src="cake.png"/> -->
+				<div class="col-8 col-lg-4  my-1 rounded border border-warning p-5">
+					<h3 class="fw-bold">MTG:DECK BUILDER</h3>
+					<h5>AN APP FOR SEARCHING AND BUILDING DECKS FOR MAGIC THE GATHERING</h5>
+					<div class="d-flex justify-content-center">
+						<button type="button" class="btn btn-warning mx-1" href="">LIVE SITE</button>
+						<button type="button" class="btn btn-warning mx-1" href="">GITHUB</button>
+						<button type="button" class="btn btn-warning mx-1" href="">BLOG POST</button>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="#about" class="container-fluid bg-primary text-center">
-			<h1 class="display-5 fw-bold text-white mb-5">ABOUT</h1>
+			<h1 class="display-5 fw-bold text-white py-5">ABOUT</h1>
 			<div class="row justify-content-center">
-				<!-- <div class="col-4"></div> -->
-				<div class="col-6 col-sm-3 col-lg-1">
-					<p class="text-white display-7">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+				<div class="col-6 col-lg-3">
+					<p class="text-white display-7">Hello, I’m John!  A hardworking driven individual who likes to tackle things head on. Curious by nature, I'm the type of software developer that likes to get down to the bottom of things. Molded by my backround in physics, I'm a motivated out of the box thinker ready to take on any challenge!</p>
 				</div>
-				<div class="col-6 col-sm-3 col-lg-1">
-					<p class="text-white display-7">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+				<div class="col-6 col-lg-3">
+					<p class="text-white display-7">I have a degree in Physics, and some Electrical Engineering experience under my belt. After graduating from GMU, I began working as an engineer for a small . From there I wanted to improve my skillset, so I began teaching myself software development.Check out my projects below!</p>
 				</div>
-				<!-- <div class="col-4"></div> -->
 			</div>
 		</section>
+		<footer id="contact" class="text-center text-white bg-secondary pb-5">
+			<h1 class="display-5 fw-bold py-5">CONTACT INFORMATION</h1>
+			<h2>JAOLDAKER1@GMAIL.COM</h2>
+			<div class="d-flex justify-content-center border border-danger">
+				<a href="https://www.github.com/jarthurj" target="_blank"><img class="contact_icon rounded mx-lg-1" src="github.svg"/></a>
+				<a href="" target="_blank"><img class="contact_icon rounded mx-lg-1" src="linkedin.svg"/></a>
+				
+			</div>
+		</footer>
   </body>
 </html>
